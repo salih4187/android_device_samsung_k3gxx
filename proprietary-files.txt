@@ -59,7 +59,7 @@ lib/omx/libOMX.Exynos.VP8.Decoder.so
 lib/omx/libOMX.Exynos.VP8.Encoder.so
 
 #Camera
-lib/hw/camera.universal5422.so
+lib/hw/camera.universal5422.so:lib/hw/camera.vendor.universal5422.so
 lib/libexynoscamera.so
 lib/libsecnativefeature.so
 lib/libvdis.so

@@ -44,6 +44,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Camera
 PRODUCT_PACKAGES += \
+    camera.universal5422 \
     Snap
 
 # Display

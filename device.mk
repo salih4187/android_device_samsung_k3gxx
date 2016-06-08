@@ -242,7 +242,9 @@ PRODUCT_PACKAGES += \
     hostapd \
     hostapd_default.conf \
     libwpa_client \
-    wpa_supplicant
+    wificond \
+    wpa_supplicant \
+    wpa_supplicant.conf
 
 # Fingerprint
 PRODUCT_PACKAGES += \

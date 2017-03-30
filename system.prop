@@ -30,6 +30,7 @@ telephony.lteOnCdmaDevice=0
 camera2.portability.force_api=1
 media.stagefright.legacyencoder=true
 media.stagefright.less-secure=true
+persist.media.treble_omx=false
 
 # Wifi
 wlan.wfd.hdcp=disable

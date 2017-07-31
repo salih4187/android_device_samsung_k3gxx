@@ -4,6 +4,7 @@
 
 # Grapics
 ro.bq.gpu_to_cpu_unsupported=1
+debug.hwui.use_buffer_age=false
 
 # Open GL
 ro.opengles.version=196609

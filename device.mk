@@ -99,12 +99,6 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-impl \
     lights.universal5422
 
-# libstlport
-# M removes libstlport, but some of our binary-only prebuilts need it, so we'll
-# add it back
-PRODUCT_PACKAGES += \
-    libstlport
-
 # Power
 PRODUCT_PACKAGES += \
     power.universal5422

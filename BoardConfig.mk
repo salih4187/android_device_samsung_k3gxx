@@ -147,6 +147,10 @@ BOARD_USES_NEW_HDMI := true
 # HEVC support in libvideocodec
 BOARD_USE_HEVC_HWIP := true
 
+
+# HIDL
+DEVICE_MANIFEST_FILE := $(LOCAL_PATH)/manifest.xml
+
 # Samsung OpenMAX Audio
 BOARD_USE_WMA_CODEC := true
 BOARD_USE_ALP_AUDIO := true

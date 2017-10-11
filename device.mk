@@ -187,6 +187,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SamsungDoze
 
+# Sensors
+PRODUCT_PACKAGES += \
+    android.hardware.sensors@1.0-impl
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service

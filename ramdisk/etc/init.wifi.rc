@@ -47,6 +47,9 @@ on boot
     # Pcie WiFi T-put setting
     write /sys/class/net/wlan0/queues/rx-0/rps_cpus 00
 
+    # Set permissions for firmware path control
+    chown wifi wifi /sys/module/dhd/parameters/firmware_path
+
 # Run deferred initcalls of builtin kernel modules (bcmdhd)
 service wifiloader /system/bin/wifiloader
     class main

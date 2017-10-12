@@ -570,12 +570,6 @@ service watchdogd /sbin/watchdogd 10 20
 on property:ro.debuggable=1
     write /sys/module/kgdboc/parameters/kgdboc ttyFIQ1
     write /sys/module/fiq_debugger/parameters/kgdb_enable 1
-	
-# CS service
-service fingerprintd /system/bin/fingerprintd
-    class late_start
-    user system
-    group input
 
 # SENSOR FRAMEWORK : starts fingerprintService
 service vcsFPService /system/bin/vcsFPService

@@ -38,6 +38,9 @@ TARGET_CPU_SMP := true
 ARCH_ARM_HAVE_TLS_REGISTER := true
 ENABLE_CPUSETS := true
 
+# Binder API version
+TARGET_USES_64_BIT_BINDER := true
+
 # Bootloader
 TARGET_OTA_ASSERT_DEVICE := k3g,k3gxx
 TARGET_BOOTLOADER_BOARD_NAME := universal5422

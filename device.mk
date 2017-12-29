@@ -186,7 +186,11 @@ PRODUCT_PACKAGES += \
     init.universal5422.usb.rc \
     init.wifi.rc \
     ueventd.universal5422.rc \
-    init.power.rc 
+    init.power.rc
+
+# RenderScript HAL
+PRODUCT_PACKAGES += \
+    android.hardware.renderscript@1.0-impl
 
 # Samsung Doze
 PRODUCT_PACKAGES += \

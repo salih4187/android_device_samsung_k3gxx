@@ -55,6 +55,16 @@ TARGET_HAS_LEGACY_CAMERA_HAL1 := true
 # Device Tree
 BOARD_USES_DT := true
 
+# Dexpreopt
+ifeq ($(HOST_OS),linux)
+  ifneq ($(TARGET_BUILD_VARIANT),eng)
+    ifeq ($(WITH_DEXPREOPT),)
+      WITH_DEXPREOPT := true
+      WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY := true
+    endif
+  endif
+endif
+
 # ValidityService
 BOARD_USES_VALIDITY := true
 

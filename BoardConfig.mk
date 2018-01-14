@@ -77,6 +77,7 @@ GREEN_LED_PATH := "/sys/devices/virtual/sec/led/led_g"
 BLUE_LED_PATH := "/sys/devices/virtual/sec/led/led_b"
 BACKLIGHT_PATH := "/sys/devices/14400000.fimd_fb/backlight/panel/brightness"
 CHARGING_ENABLED_PATH := "/sys/class/power_supply/battery/batt_lp_charging"
+WITH_LINEAGE_CHARGER := false
 
 # Kernel
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100

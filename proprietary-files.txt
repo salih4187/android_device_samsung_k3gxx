@@ -69,7 +69,7 @@ lib/libhwjpeg.so:vendor/lib/libhwjpeg.so
 lib/libsensorhub.so
 lib/libsensorhubservice.so
 lib/hw/sensorhubs.universal5422.so
-lib/hw/sensors.universal5422.so
+lib/hw/sensors.universal5422.so:vendor/lib/hw/sensors.vendor.universal5422.so
 bin/sensorhubservice
 bin/sensorservice
 

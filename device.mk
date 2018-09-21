@@ -199,7 +199,8 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@1.0-impl \
+    android.hardware.sensors@1.0-impl.universal5422 \
+    android.hardware.sensors@1.0-service.universal5422 \
     sensors.exynos5
 
 PRODUCT_COPY_FILES += \

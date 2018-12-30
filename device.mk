@@ -17,7 +17,9 @@
 
 LOCAL_PATH := device/samsung/k3gxx
 
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    device/samsung/$(LOCAL_PATH)/overlay \
+    device/samsung/$(LOCAL_PATH)/overlay-lineage
 
 # Flat device tree for boot image
 PRODUCT_PACKAGES += \

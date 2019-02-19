@@ -109,6 +109,10 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-impl \
     lights.universal5422
 
+# LiveDisplay
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@2.0-service.samsung-exynos
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.0-impl \

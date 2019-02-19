@@ -1,6 +1,6 @@
 #
 # Copyright (C) 2013 The CyanogenMod Project
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -213,7 +213,3 @@ BOARD_NFC_CHIPSET := pn547
 BOARD_NFC_HAL_SUFFIX := $(TARGET_BOOTLOADER_BOARD_NAME)
 # Legacy BLOB Support
 TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS := true
-
-# CMHW
-BOARD_HARDWARE_CLASS += hardware/samsung/cmhw
-BOARD_HARDWARE_CLASS += device/samsung/k3gxx/cmhw

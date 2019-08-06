@@ -171,6 +171,9 @@ BOARD_USE_HEVC_HWIP := true
 DEVICE_MANIFEST_FILE := $(LOCAL_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(LOCAL_PATH)/compatibility_matrix.xml
 
+# Recovery
+TARGET_RECOVERY_DEVICE_DIRS += device/samsung/k3gxx
+
 # Samsung OpenMAX Audio
 BOARD_USE_WMA_CODEC := true
 BOARD_USE_ALP_AUDIO := true

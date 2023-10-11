@@ -73,6 +73,9 @@ PRODUCT_PACKAGES += \
     fingerprint.universal5422 \
     ValidityService
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/validityservice/etc/permissions/privapp-permissions-validityservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-validityservice.xml
+
 # SHIM LIBS
 PRODUCT_PACKAGES += \
     libshim
@@ -295,9 +298,6 @@ PRODUCT_PACKAGES += \
     wificond \
     wifilogd \
     wlutil
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/validityservice/etc/permissions/privapp-permissions-validityservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-validityservice.xml
 
 # call dalvik heap and hwui config
 $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)

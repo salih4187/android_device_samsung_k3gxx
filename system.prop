@@ -2,6 +2,12 @@
 # system.prop for k3gxx
 #
 
+# Bpf
+ro.kernel.ebpf.supported=false
+
+# Disable oem unlock
+ro.oem_unlock_supported=false
+
 # Grapics
 ro.bq.gpu_to_cpu_unsupported=1
 
@@ -27,8 +33,6 @@ telephony.lteOnCdmaDevice=0
 
 # Camera Hacks
 camera2.portability.force_api=1
-media.stagefright.legacyencoder=true
-media.stagefright.less-secure=true
 
 # Wifi
 wlan.wfd.hdcp=disable
@@ -36,6 +40,9 @@ wlan.wfd.hdcp=disable
 # Audio
 audio_hal.force_voice_config=wide
 persist.bluetooth.disableabsvol=true
+
+# Treble
+persist.media.treble_omx=false
 
 # Sdcardfs
 ro.sys.sdcardfs=true

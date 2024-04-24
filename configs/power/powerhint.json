@@ -127,7 +127,6 @@
             "Name": "GPUMaxFreq",
             "Path": "/sys/kernel/gpu/gpu_max_clock",
             "Values": [
-                "700",
                 "600",
                 "544",
                 "420"

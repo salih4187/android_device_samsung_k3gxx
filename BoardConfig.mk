@@ -69,6 +69,9 @@ IR_HAL_SUFFIX := universal5422
 # Device Tree
 BOARD_USES_DT := true
 
+# Display
+TARGET_SCREEN_DENSITY := 480
+
 # Exynos display
 BOARD_USES_VIRTUAL_DISPLAY := true
 

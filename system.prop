@@ -14,9 +14,6 @@ ro.bq.gpu_to_cpu_unsupported=1
 # Open GL
 ro.opengles.version=196609
 
-# Lcd density
-ro.sf.lcd_density=480
-
 # Randomly from stock
 ro.ril.gprsclass=10
 ro.ril.hsxpa=1

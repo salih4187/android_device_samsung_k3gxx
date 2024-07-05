@@ -209,9 +209,6 @@ PRODUCT_PACKAGES += \
     ueventd.universal5422.rc \
     init.power.rc 
 
-# Setup dalvik vm configs
-$(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
-
 # Samsung Doze
 PRODUCT_PACKAGES += \
     SamsungDoze

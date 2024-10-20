@@ -205,10 +205,6 @@ PRODUCT_PACKAGES += \
     ueventd.universal5422.rc \
     init.power.rc 
 
-# Samsung Doze
-PRODUCT_PACKAGES += \
-    SamsungDoze
-
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     hardware/samsung \

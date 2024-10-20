@@ -98,6 +98,15 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_AAPT_PREBUILT_DPI := xxxhdpi xxhdpi xhdpi hdpi 
 
+# HIDL
+PRODUCT_PACKAGES += \
+    libhidltransport \
+    libhidltransport.vendor \
+    libhwbinder \
+    libhwbinder.vendor
+
+PRODUCT_ENFORCE_VINTF_MANIFEST_OVERRIDE := true
+
 # HW composer
 PRODUCT_PACKAGES += \
     libion \

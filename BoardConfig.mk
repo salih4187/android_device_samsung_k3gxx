@@ -66,6 +66,9 @@ TARGET_HAS_LEGACY_CAMERA_HAL1 := true
 # ConsumerIR from hardware/samsung
 IR_HAL_SUFFIX := universal5422
 
+# Compatibility Matrix
+DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
+
 # Device Tree
 BOARD_USES_DT := true
 
@@ -90,6 +93,9 @@ BOARD_USES_NEW_HDMI := true
 
 # HEVC support in libvideocodec
 BOARD_USE_HEVC_HWIP := true
+
+# HIDL
+DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
 
 # HWCServices
 BOARD_USES_HWC_SERVICES := true

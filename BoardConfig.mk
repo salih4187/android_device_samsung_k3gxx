@@ -67,7 +67,7 @@ TARGET_HAS_LEGACY_CAMERA_HAL1 := true
 IR_HAL_SUFFIX := universal5422
 
 # Compatibility Matrix
-DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
+DEVICE_MATRIX_FILE := $(LOCAL_PATH)/compatibility_matrix.xml
 
 # Device Tree
 BOARD_USES_DT := true

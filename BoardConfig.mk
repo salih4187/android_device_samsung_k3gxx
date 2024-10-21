@@ -112,6 +112,7 @@ TARGET_KERNEL_CONFIG := lineage_k3gxx_defconfig
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_CUSTOM_BOOTIMG := true
 BOARD_CUSTOM_BOOTIMG_MK := hardware/samsung/mkbootimg.mk
+BOARD_KERNEL_IMAGE_NAME := zImage
 TARGET_KERNEL_CLANG_COMPILE := false
 
 # Lineage hardware

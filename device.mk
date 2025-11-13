@@ -182,7 +182,9 @@ PRODUCT_PACKAGES += \
     libsecril-client-sap \
     modemloader \
     libxml2 \
-    libprotobuf-cpp-full
+    libprotobuf-cpp-full \
+    android.hardware.radio@1.0 \
+    android.hardware.radio.deprecated@1.0
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.carrier=unknown

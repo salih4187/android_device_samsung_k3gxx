@@ -109,7 +109,7 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.0 \
+    android.hardware.power@1.0-impl \
     power.universal5422
 
 # NFC
@@ -172,10 +172,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.bluetooth_le.xml:system/etc/permissions/android.hardware.bluetooth_le.xml \
     frameworks/native/data/etc/android.hardware.bluetooth.xml:system/etc/permissions/android.hardware.bluetooth.xml \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml
-
-# Power
-PRODUCT_PACKAGES += \
-    power.universal5422
 
 # Ramdisk
 PRODUCT_PACKAGES += \

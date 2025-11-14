@@ -180,6 +180,10 @@ TARGET_SAMSUNG_GRALLOC_EXTERNAL_USECASES := true
 # Scaler
 BOARD_USES_SCALER := true
 
+# Shims
+TARGET_LD_SHIM_LIBS += \
+    /system/vendor/lib/libsec-ril.so|libshim_cutils_atomic.so
+
 # WFD
 BOARD_USES_WFD := true
 

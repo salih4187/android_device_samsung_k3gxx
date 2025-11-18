@@ -25,9 +25,6 @@ TARGET_BOARD_PLATFORM := exynos5
 TARGET_SLSI_VARIANT := cm
 TARGET_SOC := exynos5422
 
-# ADB Legacy Interface
-TARGET_USES_LEGACY_ADB_INTERFACE := true
-
 # Architecture
 TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon

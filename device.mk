@@ -116,8 +116,7 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.0-impl \
-    power.universal5422
+    android.hardware.power@1.0-service.exynos
 
 # NFC
 PRODUCT_PACKAGES += \

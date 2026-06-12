@@ -102,8 +102,7 @@ PRODUCT_PACKAGES += \
 
 # Consumerir
 PRODUCT_PACKAGES += \
-    android.hardware.ir@1.0-impl \
-    consumerir.universal5422
+    android.hardware.ir@1.0-service.samsung
 
 # Lights
 PRODUCT_PACKAGES += \
